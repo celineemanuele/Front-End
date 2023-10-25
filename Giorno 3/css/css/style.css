@@ -1,0 +1,31 @@
+/* css esterno*/
+
+/* selettore universale*/
+*{
+    font-family:'Courier New', Courier, monospace
+}
+
+/* selettore di tipo*/
+p {
+    color:aqua;
+    font-weight: 600;
+    font-style: italic;
+}
+
+p,h3 {
+    text-transform: uppercase;
+}
+
+/* selettore tipo ID */
+#blue {
+    color:blue;
+}
+
+/* selettore di tipo Classe*/
+.primary {
+    color:grey;
+}
+
+.nuovo{
+    text-transform:capitalize ;
+}
