@@ -21,6 +21,7 @@ article h1{
 
 article figure img{
     width: 100%;
+    border-radius: 20px;
 }
 
 article figure figcaption{
@@ -44,7 +45,7 @@ hr{
     color: rgb(0,255,255);
 }
 
-section.ingredients p, section.method p, :first-child{
+section.ingredients p , ol li p:first-of-type {
     font-weight: bold;
 }
 
